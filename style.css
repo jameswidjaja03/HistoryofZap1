@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  color: white;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-title {
+  font-family: 'Indie Flower', cursive;
+  font-size: 200px;
+  margin-bottom: 20px;
+}
+
+.scene-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  flex-grow: 1; /* Add this line */
+}
+
+.rectangle {
+  background-color: white;
+  color: black;
+  width: 1800px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scene-description {
+  margin-top: 20px; /* Adjusted margin-top */
+  margin-bottom: 20px; /* Added margin-bottom */
+  text-align: center;
+  font-size: 24px; /* Increased font size */
+  max-width: 1800px; /* Added max-width to match the sketch width */
+}
+
+.square-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1800px;
+  margin-top: 20px;
+}
+
+.square {
+  background-color: white;
+  color: black;
+  width: calc(50% - 10px);
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p5-canvas-container {
+  margin-top: 50px;
+}
